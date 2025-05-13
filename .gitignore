@@ -1,35 +1,10 @@
 target/
 
+!.mvn/wrapper/maven-wrapper.jar
 
-.gitignore*/src/main/**/target/
+!**/src/main/**/target/
 
-.gitignore*/src/test/**/target/
-
-
-
-.classpath
-
-.project
-
-.settings/
-
-
-
-### IntelliJ IDEA ###
-
-.idea
-
-*.iws
-
-*.iml
-
-*.ipr
-target/
-
-
-.gitignore*/src/main/**/target/
-
-.gitignore*/src/test/**/target/
+!**/src/test/**/target/
 
 
 
