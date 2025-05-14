@@ -7,12 +7,12 @@ import com.ming.ioc.containeroverview.dao.AccountDao;
 import com.ming.ioc.containeroverview.dao.ItemDao;
 import com.ming.ioc.containeroverview.service.PetStoreServiceImpl;
 
-@Configuration
+
+//@Configuration
 public class ServiceConfig {
 
-    @Bean
+//    @Bean
     public PetStoreServiceImpl petStoreService(AccountDao accountDao, ItemDao itemDao) {
-    	
         PetStoreServiceImpl petStoreService = new PetStoreServiceImpl();
         petStoreService.setAccountDao(accountDao);
         petStoreService.setItemDao(itemDao);
